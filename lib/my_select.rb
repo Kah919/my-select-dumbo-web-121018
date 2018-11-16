@@ -8,4 +8,5 @@ i = 0
     end
     i += 1
   end
+  return selected
 end
