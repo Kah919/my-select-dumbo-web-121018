@@ -5,7 +5,6 @@ i = 0
 while i < collection.length
   if yield (collection[i]) == true
     selected << collection[i]
-  else
   end
 i += 1
 end
