@@ -1,7 +1,7 @@
 def my_select(collection)
  # your code here!
-selected = []
-i = 0
+ i = 0
+ selected = []
   while i < collection.size
     if yield (collection[i]) == true
       selected << collection[i]
