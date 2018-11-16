@@ -2,7 +2,7 @@ def my_select(collection)
  # your code here!
  i = 0
  selected = []
-  while i < collection.size
+  while i < collection.length
     if yield(collection[i]) == true
       selected << collection[i]
     end
