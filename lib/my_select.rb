@@ -8,5 +8,4 @@ while i < collection.length
   end
 i += 1
 end
-return selected
 end
