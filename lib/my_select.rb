@@ -8,4 +8,5 @@ while i < collection
   end
 i += 1
 end
+return selected
 end
