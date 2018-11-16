@@ -1,12 +1,12 @@
-def my_select(array)
+def my_select(collection)
  # your code here!
  i = 0
- new_array = []
-  while i < array.size
-    if yield(array[i]) == true
-      new_array << array[i]
+ selected = []
+  while i < collection.size
+    if yield(collection[i]) == true
+      selected << collection[i]
     end
     i += 1
   end
-  return new_array
+  return selected
 end
