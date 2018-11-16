@@ -3,7 +3,9 @@ def my_select(collection)
 selected = []
 i = 0
 while i < collection
- selected << yield collection[i]
+  if true
+    selected << yield collection[i]
+  end
 i += 1
 end
 end
